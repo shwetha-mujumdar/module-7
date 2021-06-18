@@ -10,8 +10,10 @@ export default function Home() {
   console.log(featuredEvents);
   return (
     <div className={styles.container}>
+      {/* // --  static Head content // */}
       <Head>
         <title>Create Next App</title>
+        <meta name="Description" content="cyjhbvchycgdvgchjgvhijkheuoegf" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
